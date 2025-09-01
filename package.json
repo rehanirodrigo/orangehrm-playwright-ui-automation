@@ -1,0 +1,17 @@
+{
+  "name": "orangehrm-playwright-js",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright JS POM suite validating OrangeHRM login page",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report",
+    "codegen": "playwright codegen https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.47.0",
+    "dotenv": "^16.6.1"
+  }
+}
