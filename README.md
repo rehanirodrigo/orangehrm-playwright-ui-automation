@@ -197,14 +197,6 @@ jobs:
 
 ---
 
-## Why this suite is useful for interviews
-
-- Shows **breadth** (not just happy paths).
-- Demonstrates **architecture** (POM, fixtures, components).
-- Proves **stability** (semantic locators, auto-waits, minimal sleeps).
-- Ready for **CI/CD** with actionable artifacts.
-
----
 
 ## Notes
 
